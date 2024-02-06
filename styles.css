@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@400;600;700&display=swap');
+
+body{background-color:hsl(30, 54%, 90%);}
+
+.recipe-maincard{
+  background-color: hsl(0, 0%, 100%);
+   width: 735px;
+   /* height: 1706px; */
+   margin: 348px auto;
+   padding-top: 20px;
+   border-radius: 30px;}
+
+.recipe-image-box{
+    width: 665px ;
+    height: 300px;
+    margin: 20px auto;
+    align-items: center;
+    border-radius: 15px;}
+
+.image-omelette{
+ max-width:665px;
+ border-radius: 15px;}
+
+.title-box{
+    /* background-color: red; */
+    max-width: 665px;
+    /* padding: 20px; */
+    margin: 20px;
+    padding-top: 10px}
+
+
+/* <!-- Preparation box --> */
+.Preparation-box{
+    background-color:hsl(330, 100%, 98%);
+    max-width: 630px;
+    height: 180px;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 15px;
+    
+    }
+
+    .Preparation-box li {
+        margin-bottom: 25px;
+        max-width: 665px;}
+
+    .Preparation-box li::marker {
+        color: hsl(332, 51%, 32%);
+      }
+ /* <!-- Ingredients box --> */
+
+ .Ingredients-box{
+    /* background-color: blueviolet; */
+    max-width: 665px;
+    margin: 20px;
+    padding-bottom: 10px
+     }
+
+    .Ingredients-box li {
+        margin-bottom: 15px;
+        max-width: 665px;
+        text-indent: 1em;}
+
+    .Ingredients-box li::marker {
+        color: hsl(14, 45%, 36%);
+      }
+ /* <!-- Instructions box --> */
+
+ .Instructions-box{
+    /* background-color: rgb(235, 224, 245); */
+    max-width: 654px;
+    margin: 20px;
+    overflow-wrap: anywhere;
+    overflow: hidden;
+    /* padding-bottom: 10px */}
+     .Instructions-box li {
+        margin-bottom: 20px;
+        max-width: 665px;
+        line-height: 25px;
+        text-indent: 1em;
+        text-align: justify;
+     }
+
+    .Instructions-box li::marker {
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
+
+      }
+
+      /* <!-- Nutrition box --> */
+.Nutrition-box{
+    /* background-color: rgb(211, 185, 236); */
+    max-width: 665px;
+    height: 300px;
+    margin: 20px;}
+
+.Nutrition-box table{
+    color: hsl(30, 10%, 34%);
+    margin: 20px auto;
+    max-width: 665px;
+
+  }
+  .Nutrition-box th,
+  .Nutrition-box td {
+    width: 1500px; /* Adjust this value as needed */
+    text-align: left;
+}
+  .Nutrition-box tr,
+  .Nutrition-box th {
+  padding: 15px;
+  padding: auto;
+  border-bottom: 1px solid #dddddd;
+}
+
+.Nutrition-box th:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+}
+
+hr.sold {
+    border-color:hsl(30, 18%, 100%); /* Change the color */
+    border-width: 0.15px; /* Change the thickness */
+    max-width: 665px;
+}
+/* fonts */
+h1{ color: hsl(24, 5%, 18%);
+    font-family: 'Young Serif', serif;}
+
+h2{ color:hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif}
+    
+h3{color:hsl(332, 51%, 32%);}
+
+body{ color:  hsl(30, 10%, 34%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 400;}
+
+
+
+
+  
+   
